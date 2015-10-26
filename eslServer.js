@@ -31,7 +31,7 @@ var VadMachine = require('./lib/server/vadMachine').machinima;
 var vadMachine = new VadMachine();
 
 var nuanceReqOpt = {
-    uri: "/NMDPAsrCmdServlet/dictation?appId=NMDPTRIAL_SpeechTrans_Inc_speechtransbeta20110505112836&appKey=d5e1755d571ff693d2e70b8bb866b73b004b9a619346cad37be830625cdab331bb288e124784a5196bb0a423175c5e17a7f8783a3e430eb92b3e1c8718cfb8d4&id=speechtranstest",
+    uri: "/NMDPAsrCmdServlet/dictation?appId=<your app ID>&appKey=<your app key>&id=<your id>",
     baseUrl: "https://dictation.nuancemobility.net/",
     // uri: "http://localhost:2121/",
     headers: {
@@ -44,7 +44,7 @@ var nuanceReqOpt = {
 }
 
 nuanceReqOpt = {
-    path: "/NMDPAsrCmdServlet/dictation?appId=NMDPTRIAL_SpeechTrans_Inc_speechtransbeta20110505112836&appKey=d5e1755d571ff693d2e70b8bb866b73b004b9a619346cad37be830625cdab331bb288e124784a5196bb0a423175c5e17a7f8783a3e430eb92b3e1c8718cfb8d4&id=speechtranstest",
+    path: "/NMDPAsrCmdServlet/dictation?appId=<your app id>&appKey=<your app key>&id=<your id>",
     hostname: "dictation.nuancemobility.net",
     port: 443,
     method: "POST",
